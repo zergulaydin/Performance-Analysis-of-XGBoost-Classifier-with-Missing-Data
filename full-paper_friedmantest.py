@@ -22,7 +22,8 @@ data5=df.iloc[:,5]
 data6=df.iloc[:,6]
 
 
-print(friedmanchisquare(data1,data2,data3,data4))
+print(friedmanchisquare(data1,data2,data3,data4,data5,data6))
+
 
 
 
