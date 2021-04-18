@@ -41,7 +41,7 @@ def classifier_selection(model, X_train_dataset, y_train_set, X_test_dataset):
 timestr = time.strftime("%Y%m%d-%H%M%S")
 
 
-data_set__list = ['australian']  # ,20.0,30.0,40.0,50.0,60.0,70.0,80.0]
+data_set__list = ['australian']#,'german','iris','ecoli','magic','pima','shuttle','satimage','newthyroid','wine'] 
 
 categoric=[0,3,4,5,7,8,10,11] #australian
 
