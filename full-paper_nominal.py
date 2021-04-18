@@ -1,3 +1,4 @@
+#use mode and mean imputatiaon and classmode and classmean imputation
 import numpy as np
 import pandas as pd
 from sklearn.metrics import f1_score
@@ -41,7 +42,7 @@ def classifier_selection(model, X_train_dataset, y_train_set, X_test_dataset):
 timestr = time.strftime("%Y%m%d-%H%M%S")
 
 
-data_set__list = ['australian']#,'german','iris','ecoli','magic','pima','shuttle','satimage','newthyroid','wine'] 
+data_set__list = ['australian']#,'german'] 
 
 categoric=[0,3,4,5,7,8,10,11] #australian
 
